@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'CORONAVIRUS_SAVER_TITLE' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <!-- <ion-range (ionChange)="changeRange($event)"></ion-range> -->
+    <button (click)="turnOn()" id="save-me">{{saveMeText}}</button>
+  </div>
+</ion-content>
